@@ -23,3 +23,10 @@ void J3DModel::initialize()
     this->_D4 = 0;
     this->_D8 = 0;
 }
+
+void J3DModel::setBaseScale(const Vec &scale)
+{
+    this->mBaseScale.x = scale.x;
+    this->mBaseScale.y = scale.y;
+    this->mBaseScale.z = scale.z;
+}
